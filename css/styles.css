@@ -132,10 +132,13 @@ img {
   justify-content: center;
 }
 .hero-side {
-  padding-top: 270px;
-  padding-bottom: 200px;
+  flex-grow: 1;
+  padding-left: 237px;
+  padding-top: 200px;
+  padding-right: 237px;
+  padding-bottom: 280px;
 }
-.hero-btn {
+.btn {
   width: 200px;
   height: 50px;
   background: #2196f3;
@@ -166,15 +169,6 @@ img {
 /*=======end hero=======*/
 
 /*=======about=======*/
-.about-side-list .about-navigation {
-  display: block;
-  
-}
-
-.about-side {
-  padding-top: 774px;
-  padding-left: 215px;
-}
 
 .about-title {
   font-family: "Roboto", sans-serif;
