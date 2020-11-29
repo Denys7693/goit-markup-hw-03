@@ -1,13 +1,85 @@
 .address {
   font-style: normal;
 }
-li {
-  list-style-type: none;
+
+.list {
+  list-style: none;
 }
-a {
+
+.link {
   text-decoration: none;
 }
-/*==header==*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/*=======header=======*/
+
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+}
+
+.address-list {
+  display: flex;
+}
+
+.header .logo {
+  margin-right: 90px;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header .address {
+  margin-left: auto;
+}
+
+.addres-navigation-mail {
+  margin-left: 50px;
+  margin-right: 20px;
+}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -50,9 +122,27 @@ a {
   color: #757575;
 }
 
-/*==end header==*/
+/*=======end header=======*/
 
-/*==hero==*/
+/*=======hero=======*/
+.hero .container {
+  /*display: flex;*/
+}
+.hero-side {
+  justify-content: center;
+}
+.hero-side {
+  padding-top: 270px;
+  padding-bottom: 200px;
+}
+.hero-btn {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
 .about-h2 {
   display: none;
 }
@@ -71,11 +161,20 @@ a {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
-  /* color: #ffffff; */
-}
-/*==end hero==*/
+  color: #ffffff;
+  
+/*=======end hero=======*/
 
-/*==about==*/
+/*=======about=======*/
+.about-side-list .about-navigation {
+  display: block;
+  
+}
+
+.about-side {
+  padding-top: 774px;
+  padding-left: 215px;
+}
 
 .about-title {
   font-family: "Roboto", sans-serif;
@@ -83,7 +182,7 @@ a {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  text-transform : uppercase;
   color: #212121;
 }
 .about-text {
@@ -95,9 +194,9 @@ a {
   letter-spacing: 0.03em;
   color: #757575;
 }
-/*==end about==*/
+/*=======end about=======*/
 
-/*==WHOT_DO_WE_DO==*/
+/*=======WHOT_DO_WE_DO=======*/
 
 .whotdo-side-title {
   font-family: "Roboto", sans-serif;
@@ -110,9 +209,9 @@ a {
   color: #212121;
 }
 
-/*==end WHOT_DO_WE_DO==*/
+/*=======end WHOT_DO_WE_DO=======*/
 
-/*==WHOT_DO_WE_DO==*/
+/*=======WHOT_DO_WE_DO=======*/
 .masters-title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -141,9 +240,9 @@ a {
   letter-spacing: 0.03em;
   color: #757575;
 }
-/*==end WHOT_DO_WE_DO==*/
+/*=======end WHOT_DO_WE_DO=======*/
 
-/*==CONTAKT==*/
+/*=======CONTAKT=======*/
 .contakt-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -174,9 +273,9 @@ a {
   color: #000000;
   /*==цвет временный==*/
 }
-/*==end CONTAKT==*/
+/*=======end CONTAKT=======*/
 
-/*====== portfolio.html ======*/
+/*======= portfolio.html =======*/
 .portfolio-h1 {
   display: none;
 }
@@ -210,3 +309,4 @@ a {
   letter-spacing: 0.03em;
   color: #757575;
 }
+/*======= end portfolio.html =======*/
