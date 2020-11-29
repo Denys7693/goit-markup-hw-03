@@ -157,6 +157,7 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #000000;
+  margin-bottom: 30px;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -165,11 +166,15 @@ img {
   line-height: 1.875;
   letter-spacing: 0.06em;
   color: #ffffff;
+  margin-left: 200px;
   
 /*=======end hero=======*/
 
 /*=======about=======*/
 
+.about-side {
+  display: flex;
+}
 .about-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -192,6 +197,16 @@ img {
 
 /*=======WHOT_DO_WE_DO=======*/
 
+.whotdo .container {
+  display: flex;
+}
+.whotdo-side-list {
+  display: flex;
+}
+.whotdo-navigation:not(:last-child) {
+  margin-right: 30px;
+}
+
 .whotdo-side-title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -205,7 +220,14 @@ img {
 
 /*=======end WHOT_DO_WE_DO=======*/
 
-/*=======WHOT_DO_WE_DO=======*/
+/*=======MASTERS=======*/
+.whotdo .container {
+  display: flex;
+}
+.whotdo-side-list {
+  display: flex;
+}
+
 .masters-title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -234,7 +256,7 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
 }
-/*=======end WHOT_DO_WE_DO=======*/
+/*=======end MASTERS=======*/
 
 /*=======CONTAKT=======*/
 .contakt-logo {
