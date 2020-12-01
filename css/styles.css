@@ -125,9 +125,7 @@ img {
 /*=======end header=======*/
 
 /*=======hero=======*/
-.hero .container {
-  /*display: flex;*/
-}
+
 .hero-side {
   justify-content: center;
 }
@@ -135,8 +133,8 @@ img {
   flex-grow: 1;
   padding-left: 237px;
   padding-top: 200px;
-  padding-right: 237px;
-  padding-bottom: 280px;
+  padding-right: 255px;
+  padding-bottom: 200px;
 }
 .btn {
   width: 200px;
@@ -145,6 +143,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  margin: 0 auto;
 }
 .about-h2 {
   display: none;
@@ -158,6 +157,7 @@ img {
   text-transform: uppercase;
   color: #000000;
   margin-bottom: 30px;
+  text-align: center;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -166,23 +166,38 @@ img {
   line-height: 1.875;
   letter-spacing: 0.06em;
   color: #ffffff;
-  margin-left: 200px;
-  
+  margin-left: 250px;
+}
 /*=======end hero=======*/
 
 /*=======about=======*/
+.about {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
 
-.about-side {
+.about .about-side {
+  display: flex;
+  align-items: center;
+}
+
+.about-side-list {
   display: flex;
 }
-.about-title {
+
+.about-navigation:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about .about-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.03em;
-  text-transform : uppercase;
+  text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
 }
 .about-text {
   font-family: "Roboto", sans-serif;
@@ -192,17 +207,24 @@ img {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 95px;
 }
 /*=======end about=======*/
 
 /*=======WHOT_DO_WE_DO=======*/
 
+.whotdo {
+  padding-bottom: 95px;
+}
+
 .whotdo .container {
   display: flex;
 }
+
 .whotdo-side-list {
   display: flex;
 }
+
 .whotdo-navigation:not(:last-child) {
   margin-right: 30px;
 }
@@ -216,16 +238,21 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 
 /*=======end WHOT_DO_WE_DO=======*/
 
 /*=======MASTERS=======*/
-.whotdo .container {
+.masters .container {
   display: flex;
 }
-.whotdo-side-list {
+.masters-side {
   display: flex;
+}
+
+.masters-list:not(:last-child) {
+  margin-right: 30px;
 }
 
 .masters-title {
@@ -237,6 +264,8 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-top: 188px;
+  margin-bottom: 50px;
 }
 .masters-h3 {
   font-family: "Roboto", sans-serif;
@@ -246,6 +275,9 @@ img {
   line-height: 1.187;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 .masters-p {
   font-family: "Roboto", sans-serif;
@@ -255,10 +287,12 @@ img {
   line-height: 19px;
   letter-spacing: 0.03em;
   color: #757575;
+  text-align: center;
 }
 /*=======end MASTERS=======*/
 
 /*=======CONTAKT=======*/
+
 .contakt-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -292,13 +326,53 @@ img {
 /*=======end CONTAKT=======*/
 
 /*======= portfolio.html =======*/
+
+.portfolio .container {
+  display: flex;
+}
+
+.portfolio-list-1 {
+  display: flex;
+  padding-left: 280px;
+  padding-top: 174px;
+  padding-right: 280px;
+  padding-bottom: 35px;
+}
+
+.portfolio-list-2 {
+  display: flex;
+}
+
 .portfolio-h1 {
   display: none;
 }
 .portfolio-h2 {
   display: none;
 }
+
+.portfolio-list1:not(:last-child) {
+  margin-right: 8px;
+}
+
+.portfolio-list-2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.portfolio-list2 {
+  margin-left: 10px;
+  margin-top: 10px;
+  flex-basis: cals (100% / 3 - 10px);
+}
+
 .portfolio-list1-text {
+  width: 73px;
+  height: 38px;
+  background: #2196f3;
+
+  border-radius: 4px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -306,6 +380,7 @@ img {
   line-height: 1.625;
   letter-spacing: 0.03em;
   color: #212121;
+  cursor: pointer;
 }
 .portfolio-title {
   font-family: "Roboto", sans-serif;
@@ -315,6 +390,8 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  margin-left: 24px;
+  margin-top: 20px;
 }
 .list2-text {
   font-family: "Roboto", sans-serif;
@@ -324,5 +401,7 @@ img {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-left: 24px;
+  margin-top: 4px;
 }
 /*======= end portfolio.html =======*/
