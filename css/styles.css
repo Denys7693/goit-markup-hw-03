@@ -333,7 +333,7 @@ img {
 
 .portfolio-list-1 {
   display: flex;
-  padding-left: 280px;
+  padding-left: 300px;
   padding-top: 174px;
   padding-right: 280px;
   padding-bottom: 35px;
@@ -368,7 +368,6 @@ img {
 }
 
 .portfolio-list1-text {
-  width: 73px;
   height: 38px;
   background: #2196f3;
 
