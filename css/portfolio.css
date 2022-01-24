@@ -71,7 +71,7 @@
   box-sizing: border-box;
   margin-top: 34px;
 }
-.portfolio-list-2 .list-2-title:not(3n) {
+.portfolio-list-2 .list-2-title:nth-of-type(3n + 1) {
   margin-right: 30px;
 }
 
