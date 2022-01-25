@@ -1,8 +1,15 @@
 .hidden {
-  margin: 0;
-  padding: 0;
+  position: absolute;
+  width: 1px;
   height: 1px;
-  color: #fff;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 /* ----------cap---------- */
 
@@ -10,10 +17,14 @@
   border-bottom: 1px solid #ececec;
 }
 /* ----------list-1---------- */
+.portf-sect {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .portfolio-list-1 {
   display: flex;
-  padding-top: 94px;
-  padding-left: 280px;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 .portfolio-list-1 .portfolio-list-button:not(:last-child) {
   margin-right: 8px;
@@ -62,22 +73,24 @@
 .portfolio-list-2 {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
-  padding-bottom: 94px;
 }
+
 .list-2-title {
   background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  margin-top: 34px;
+  margin-top: 30px;
   margin-right: auto;
 }
+/* .portfolio-list-2 .list-2-title(){
+  margin-top: 0;
+} */
+
 .portfolio-list-2 .list-2-title:nth-of-type(3n) {
   margin-right: 0;
 }
 
 .port-list2 {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 .portfolio-title {
   font-family: "Roboto", sans-serif;
@@ -86,6 +99,8 @@
   line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 .list2-text {
   font-family: "Roboto", sans-serif;
@@ -93,6 +108,7 @@
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
+  margin: 0;
 }
 /* ----------footer---------- */
 .footer-address {

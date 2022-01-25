@@ -9,13 +9,14 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
 </head>
 <body>
     
-    <header >
+    <header class="cap" >
         <div class="container head-nav">
             <a class="logo" href="index.html"><span class="logo-color">Web</span>Studio</a>
-            <nav>
+            <nav class="head-nav">
                 <ul class="site-nav">
                     <li class="nav-li">
                         <a class="navigation-list-link link-aktive" href="./index.html">Студия</a>
@@ -41,7 +42,7 @@
     </header>
 
     <main>
-        <section class="hero-side container">
+        <section class="hero-side">
             <div class="container">
                 <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
                 <button class="hero-btn" type="button">Заказать услугу</button>
@@ -49,7 +50,7 @@
         </section>
         
 
-        <section>
+        <section class="pad-top">
             <div class="container">
                 <h2 class="hidden">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h2>
                 <ul class="solutions">
@@ -96,23 +97,31 @@
                 <ul  class="our-team-ul">
                     <li class="our-team-li">
                         <img class="masters-img" src="./images/our_teams/igor.jpg" alt="игорь" width="270">
-                        <h3 class="masters-h3">Игорь Демьяненко</h3>
-                        <p class="masters-p">Product Designer</p>
+                        <div class="masters-div">
+                            <h3 class="masters-h3">Игорь Демьяненко</h3>
+                            <p class="masters-p">Product Designer</p>
+                        </div>
                     </li>
                     <li class="our-team-li">
                         <img class="masters-img" src="./images/our_teams/olga.jpg" alt="ольга" width="270">
-                        <h3 class="masters-h3">Ольга Репина</h3>
-                        <p class="masters-p">Frontend Developer</p>
+                        <div class="masters-div">
+                            <h3 class="masters-h3">Ольга Репина</h3>
+                            <p class="masters-p">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="our-team-li">
                         <img class="masters-img" src="./images/our_teams/kolya.jpg" alt="николай" width="270">
-                        <h3 class="masters-h3">Николай Тарасов</h3>
-                        <p class="masters-p">Marketing</p>
+                        <div class="masters-div">
+                            <h3 class="masters-h3">Николай Тарасов</h3>
+                            <p class="masters-p">Marketing</p>
+                        </div>    
                     </li>
                     <li class="our-team-li">
                         <img class="masters-img" src="./images/our_teams/misha.jpg" alt="михаил" width="270">
-                        <h3 class="masters-h3">Михаил Ермаков</h3>
-                        <p class="masters-p">UI Designer</p>
+                        <div class="masters-div">
+                            <h3 class="masters-h3">Михаил Ермаков</h3>
+                            <p class="masters-p">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
