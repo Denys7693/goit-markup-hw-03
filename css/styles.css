@@ -34,7 +34,7 @@ img {
 }
 
 /* ----------header---------- */
-.head-nav {
+.header-nav {
   display: flex;
   align-items: center;
 }
@@ -222,7 +222,7 @@ img {
 .masters-img {
 }
 .masters-div {
-  padding: 30px 59px;
+  padding: 30px 20px;
 }
 .masters-h3 {
   font-weight: 500;
@@ -248,8 +248,8 @@ img {
 /* ----------footer---------- */
 .footer {
   background: #2f303a;
-  padding-top: 54px;
-  padding-bottom: 66px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
